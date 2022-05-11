@@ -1,0 +1,8 @@
+
+@stories @scenario1
+Scenario: purchase of a product on the Falabella page           [90m# src/test/resources/features/falabellaShopping.feature:4[0m
+  [32mGiven [0m[32maccess to the falabella page[0m                            [90m# falabellaShopping.stepdefinitions.StepDefinitionsFalabellaShopping.access_to_the_falabella_page()[0m
+  [32mAnd [0m[32mclose the pop-up[0m                                          [90m# falabellaShopping.stepdefinitions.StepDefinitionsFalabellaShopping.close_the_popup()[0m
+  [32mAnd [0m[32mchoose a certain product and add it to the bag [0m[32m[1m"NINTENDO"[0m [90m# falabellaShopping.stepdefinitions.StepDefinitionsFalabellaShopping.choose_product_bag(java.lang.String)[0m
+  [32mWhen [0m[32menter the shopping bag[0m                                   [90m# falabellaShopping.stepdefinitions.StepDefinitionsFalabellaShopping.enter_shopping_bag()[0m
+  [32mThen [0m[32mthe user expects to be on the payment option page[0m        [90m# falabellaShopping.stepdefinitions.StepDefinitionsFalabellaShopping.expects_payment_option_page()[0m
